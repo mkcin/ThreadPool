@@ -14,15 +14,10 @@ static void lib_init (void) __attribute__ ((constructor));
 
 static void lib_destroy (void) __attribute__ ((destructor));
 
-
-void queue_delete(queue_list_t *queue, void *data);
-
 void catch(int sig) {
-    printf("safsadfsadfasdf\n");
     if (sem_wait(&working_pools_mutex)) {
         exit(-1);
     }
-    printf("safsadfsadfasdf\n");
     while (get_queue_size(working_pools) > 0) {
         thread_pool_t *pool = pop_front(working_pools);
         if (sem_post(&working_pools_mutex)) {

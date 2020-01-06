@@ -51,7 +51,6 @@ int32_t main() {
     }
     uint32_t n;
     scanf("%d", &n);
-    usleep(1000000000);
     if(n < 2) {
         printf("1\n");
         thread_pool_destroy(&pool);
@@ -86,6 +85,7 @@ int32_t main() {
             destroy_pool_and_futures(n, futures, &pool);
             return err;
         }
+        usleep(1000000000);
     }
     factorial_t *result;
     if((result = await(futures[n-1])) == NULL) {

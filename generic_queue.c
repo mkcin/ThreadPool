@@ -7,6 +7,8 @@
 #include <string.h>
 #include "generic_queue.h"
 
+#include <stdio.h>
+
 queue_list_t *queue_init() {
     queue_list_t *q = malloc(sizeof(queue_list_t));
     if (!q) return NULL;
@@ -84,6 +86,9 @@ int get_queue_size(queue_list_t *q) {
 }
 
 void queue_delete(queue_list_t *q, void *data) {
+    if(get_queue_size(q) == 0) {
+        return;
+    }
     if(data == q->head->data) {
         pop_front(q);
         return;
@@ -94,7 +99,11 @@ void queue_delete(queue_list_t *q, void *data) {
         if(node->data == data) {
             before->next = node->next;
             q->size_of_queue--;
+            if(q->tail == node) {
+                q->tail = before;
+            }
             free(node);
+            return;
         }
         before = node;
         node = node->next;
