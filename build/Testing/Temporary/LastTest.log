@@ -1,0 +1,86 @@
+Start testing: Jan 03 03:32 CET
+----------------------------------------------------------
+1/4 Testing: test_defer
+1/4 Test: test_defer
+Command: "/home/mkcin/CLionProjects/pw_zaliczenie2/build/test/test_defer"
+Directory: /home/mkcin/CLionProjects/pw_zaliczenie2/build/test
+"test_defer" start time: Jan 03 03:32 CET
+Output:
+----------------------------------------------------------
+/home/mkcin/CLionProjects/pw_zaliczenie2/test/defer.c: ALL TESTS PASSED
+/home/mkcin/CLionProjects/pw_zaliczenie2/test/defer.cTests run: 1
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test_defer" end time: Jan 03 03:32 CET
+"test_defer" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/4 Testing: test_await
+2/4 Test: test_await
+Command: "/home/mkcin/CLionProjects/pw_zaliczenie2/build/test/test_await"
+Directory: /home/mkcin/CLionProjects/pw_zaliczenie2/build/test
+"test_await" start time: Jan 03 03:32 CET
+Output:
+----------------------------------------------------------
+/home/mkcin/CLionProjects/pw_zaliczenie2/test/await.c ALL TESTS PASSED
+/home/mkcin/CLionProjects/pw_zaliczenie2/test/await.c Tests run: 1
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test_await" end time: Jan 03 03:32 CET
+"test_await" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/4 Testing: test_macierzy
+3/4 Test: test_macierzy
+Command: "/home/mkcin/CLionProjects/pw_zaliczenie2/build/test/macierz.sh" "1"
+Directory: /home/mkcin/CLionProjects/pw_zaliczenie2/build/test
+"test_macierzy" start time: Jan 03 03:32 CET
+Output:
+----------------------------------------------------------
+/home/mkcin/CLionProjects/pw_zaliczenie2/test/dane/stud1.txt
+/home/mkcin/CLionProjects/pw_zaliczenie2/test/dane stud1
+/home/mkcin/CLionProjects/pw_zaliczenie2/test/dane/stud2.txt
+/home/mkcin/CLionProjects/pw_zaliczenie2/test/dane stud2
+/home/mkcin/CLionProjects/pw_zaliczenie2/test/dane/stud3.txt
+/home/mkcin/CLionProjects/pw_zaliczenie2/test/dane stud3
+/home/mkcin/CLionProjects/pw_zaliczenie2/test/dane/stud4.txt
+/home/mkcin/CLionProjects/pw_zaliczenie2/test/dane stud4
+/home/mkcin/CLionProjects/pw_zaliczenie2/test/dane/stud5.txt
+/home/mkcin/CLionProjects/pw_zaliczenie2/test/dane stud5
+/home/mkcin/CLionProjects/pw_zaliczenie2/test/dane/stud6.txt
+/home/mkcin/CLionProjects/pw_zaliczenie2/test/dane stud6
+/home/mkcin/CLionProjects/pw_zaliczenie2/test/dane/stud7.txt
+/home/mkcin/CLionProjects/pw_zaliczenie2/test/dane stud7
+/home/mkcin/CLionProjects/pw_zaliczenie2/test/dane/stud8.txt
+/home/mkcin/CLionProjects/pw_zaliczenie2/test/dane stud8
+<end of output>
+Test time =   0.47 sec
+----------------------------------------------------------
+Test Passed.
+"test_macierzy" end time: Jan 03 03:32 CET
+"test_macierzy" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/4 Testing: test_silni
+4/4 Test: test_silni
+Command: "/home/mkcin/CLionProjects/pw_zaliczenie2/build/test/silnia.sh" "1"
+Directory: /home/mkcin/CLionProjects/pw_zaliczenie2/build/test
+"test_silni" start time: Jan 03 03:32 CET
+Output:
+----------------------------------------------------------
+1
+2
+5
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test_silni" end time: Jan 03 03:32 CET
+"test_silni" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jan 03 03:32 CET

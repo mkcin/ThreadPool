@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../generic_queue.h
+stddef.h
+-
+
+../threadpool.h
+stddef.h
+-
+pthread.h
+-
+semaphore.h
+-
+stdbool.h
+-
+generic_queue.h
+../generic_queue.h
+
+/home/mkcin/CLionProjects/pw_zaliczenie2/test/defer.c
+pthread.h
+-
+semaphore.h
+-
+stdio.h
+-
+stdlib.h
+-
+minunit.h
+/home/mkcin/CLionProjects/pw_zaliczenie2/test/minunit.h
+threadpool.h
+/home/mkcin/CLionProjects/pw_zaliczenie2/test/threadpool.h
+
+/home/mkcin/CLionProjects/pw_zaliczenie2/test/minunit.h
+

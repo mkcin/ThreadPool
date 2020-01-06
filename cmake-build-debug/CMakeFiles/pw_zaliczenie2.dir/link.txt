@@ -1,0 +1,1 @@
+/usr/bin/g++  -g   CMakeFiles/pw_zaliczenie2.dir/main.cpp.o  -o pw_zaliczenie2 
